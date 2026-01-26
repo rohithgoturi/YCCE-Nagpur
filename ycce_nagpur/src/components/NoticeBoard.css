@@ -1,0 +1,45 @@
+.notice {
+  background: white;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.notice h2 {
+  margin-bottom: 20px;
+}
+
+.notice-card {
+  background: #f1f5f9;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new {
+  background: #2563eb;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.new.red {
+  background: #dc2626;
+}
+
+.view-btn {
+  margin-top: 15px;
+  background: #0a2540;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+.notice-card {
+  max-width: 900px;
+}

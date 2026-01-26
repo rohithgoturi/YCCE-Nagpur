@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+
+body {
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+
+@media (max-width: 900px) {
+  .highlights {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .event-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .badge {
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #3b82f6, #22c55e);
+  transform-origin: left;
+  z-index: 9999;
+}
+
+
+body.dark {
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+body.dark .navbar,
+body.dark .footer {
+  background: #020617;
+}
+
+body.dark .card,
+body.dark .notice,
+body.dark .event-card {
+  background: #020617;
+  color: #e5e7eb;
+}

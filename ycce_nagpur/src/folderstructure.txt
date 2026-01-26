@@ -1,0 +1,14 @@
+ycce-website/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── NoticeBoard.jsx
+│   │   ├── Highlights.jsx
+│   │   ├── Events.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
